@@ -10,6 +10,7 @@ body{
 }
 
 .wrapper{
+    position: relative;
     width: 80%;
     background-color: white;
     margin: 2% auto;
@@ -37,7 +38,7 @@ body{
     border-radius: 50%;
     position: absolute;
     background: #c9e9e9;
-    z-index:-1
+    z-index:-2
 }
 .circle1{
     left: 2%;
@@ -46,4 +47,17 @@ body{
 .circle2{
     right: 2%;
     bottom:2%;
+}
+
+svg{
+    position: absolute;
+    bottom: 0%;
+    left: 0px;
+    width:80vw;
+    opacity: .6;
+    z-index: -3;
+   margin: 0 10vw 0 10vw;;
+}
+button{
+    margin-top: 5px;
 }
