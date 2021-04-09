@@ -15,6 +15,7 @@ body{
     margin: 2% auto;
     padding: 2%;
     min-height: 100vh;
+    border-radius: 2rem;
     background: linear-gradient(to right bottom ,rgba(255, 255, 255, .7),rgba(255, 255, 255, .3));
 }
 
@@ -29,4 +30,20 @@ body{
 }
 .steps{
     list-style-type: lower-roman;
+}
+.circle1, .circle2{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    background: #c9e9e9;
+    z-index:-1
+}
+.circle1{
+    left: 2%;
+    top:2%;
+}
+.circle2{
+    right: 2%;
+    bottom:2%;
 }
