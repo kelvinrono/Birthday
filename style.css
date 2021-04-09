@@ -7,3 +7,20 @@ body{
     font-family:sans-serif;
     background-image: linear-gradient(to bottom, #65dfc9, #6cdbeb);
 }
+
+.wrapper{
+    width: 80%;
+    background-color: white;
+    margin: 2% auto;
+    padding: 2%;
+    min-height: 100vh;
+}
+.navigation ul{
+    display:flex;
+    justify-content: flex-end;
+}
+
+.navigation ul li{
+    margin-left: 5%;
+    list-style: none;
+}
