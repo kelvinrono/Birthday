@@ -17,7 +17,7 @@ var days=["Sunday","Monday","Tuesday", "wednesday", "Thursday", "Friday", "Satur
 var DOB=25
 var month = "August";
 var year = 1997;
- gender="Male"
+ gender="Female"
 var DOB2 = parseInt(DOB);
 var combinedDate = month+" "+DOB2+" "+year;
 var date = new Date(combinedDate);
@@ -47,6 +47,31 @@ var date = new Date(combinedDate);
         alert("You were born on "+days[0]+" and your Akan name is "+akanMale[6])
     }
   }
+
+  if(gender=="Female"){
+    if(dayBorn==0){
+        alert("You were born on "+days[0]+" and your Akan name is "+akanFemale[0])
+    }
+    if(dayBorn==1){
+      alert("You were born on "+days[1]+" and your Akan name is "+akanFemale[1])
+  }
+  if(dayBorn==2){
+      alert("You were born on "+days[0]+" and your Akan name is "+akanFemale[2])
+  }
+  if(dayBorn==3){
+      alert("You were born on "+days[0]+" and your Akan name is "+akanFemale[3])
+  }
+  if(dayBorn==4){
+      alert("You were born on "+days[0]+" and your Akan name is "+akanFale[4])
+  }
+  if(dayBorn==5){
+      alert("You were born on "+days[0]+" and your Akan name is "+akanFemale[5])
+  }
+  
+  if(dayBorn==6){
+      alert("You were born on "+days[0]+" and your Akan name is "+akanFemale[6])
+  }
+}
 
 }
 
