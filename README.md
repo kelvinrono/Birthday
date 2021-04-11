@@ -1,4 +1,4 @@
-Anitas Kitchen
+Birthday day discover Website
 ## Author
 Cheruiyot Kelvin
 ## Description
@@ -10,7 +10,7 @@ You can install it with the following command in your terminal
 ### Setup
 To access this project on your local files, you can clone it using these steps
 1. Open your terminal
-2. Use this command to clone `$ git clone https://github.com/kelvinrono/Landing-page
+2. Use this command to clone `$ git clone https://github.com/kelvinrono/Birthday
 3. This will clone the repositoty into your local folder
 4. __Enjoy :)__
 ### Technologies Used
@@ -19,7 +19,7 @@ To access this project on your local files, you can clone it using these steps
 3. Javascript
 4. Git
 ### Live Site
-View [live]https://kelvinrono.github.io/Landing-page/
+View [live]https://kelvinrono.github.io/Birthday
 ### Licence
 This project is under the  [MIT](LICENSE) licence
 MIT License
