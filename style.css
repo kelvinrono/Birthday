@@ -32,7 +32,7 @@ body{
 .steps{
     list-style-type: lower-roman;
 }
-.circle1, .circle2{
+.circle1, .circle2,.circle3, .circle4, .circle5, .circle6, .circle7, .circle8{
     height: 100px;
     width: 100px;
     border-radius: 50%;
@@ -49,6 +49,33 @@ body{
     bottom:2%;
 }
 
+.circle3{
+    left: 2%;
+    top:20%;
+}
+
+.circle4{
+    left: 2%;
+    top:38%;
+}
+
+.circle5{
+    left: 2%;
+    bottom:2%;
+}
+.circle6{
+    right: 2%;
+    top:20%;
+}
+.circle7{
+    right: 2%;
+    top:2%;
+}
+.circle8{
+   right: 2%;
+    top:38%;
+}
+
 svg{
     position: absolute;
     bottom: 0%;
@@ -60,4 +87,16 @@ svg{
 }
 button{
     margin-top: 5px;
+}
+.todo{
+    margin:0.5rem;
+    background: white;
+    color:black;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+   
+
 }
