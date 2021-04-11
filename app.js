@@ -23,14 +23,13 @@ var combinedDate = month+" "+DOB2+" "+year;
 var date = new Date(combinedDate);
 
 //create element
-const todoDiv = document.createElement('div');
-todoDiv.classList.add('todo');
-//list items
+const Div1 = document.createElement('div');
+Div1.classList.add('display');
+//append items
 const todoItem = document.createElement('li')
-// todoItem.innerHTML=fullNames;
-todoItem.classList.add('todo')
-todoDiv.appendChild(todoItem)
-show.appendChild(todoDiv);
+todoItem.classList.add('display')
+Div1.appendChild(todoItem)
+show.appendChild(Div1);
 
     let dayBorn = date.getDay();
   if(gender=="Male"){
@@ -83,5 +82,15 @@ show.appendChild(todoDiv);
   }
 }
 
+
+
 })
 
+
+// function validate(){
+//     if( document.myform.firstName.value == "" ) {
+//         alert( "Please provide your name!" );
+//         document.myorm.firstName.focus() ;
+//         return false;
+// }
+// }
