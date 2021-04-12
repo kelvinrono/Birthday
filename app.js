@@ -9,7 +9,6 @@ var year = document.querySelector("#year").value;
 var show = document.querySelector(".show");
 var gender = $("#gender").val();
 var month = $("#month").val();
-const  discover  = document.querySelector("#discover");
 var akanMale=["Kwasi", "Kwadwo", "Kwabena", "Kwaku","Yaw", "Kofi", "Kwame"];
 
 var akanFemale=["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa","Afua", "Ama"]
@@ -40,20 +39,20 @@ show.appendChild(Div1);
         todoItem.innerHTML= fullNames+"You were born on "+days[1]+" and your Akan name is "+akanMale[1]
     }
     if(dayBorn==2){
-        todoItem.innerHTML= fullNames+"You were born on "+days[0]+" and your Akan name is "+akanMale[2]
+        todoItem.innerHTML= fullNames+"You were born on "+days[2]+" and your Akan name is "+akanMale[2]
     }
     if(dayBorn==3){
-        todoItem.innerHTML= fullNames+"You were born on "+days[0]+" and your Akan name is "+akanMale[3]
+        todoItem.innerHTML= fullNames+"You were born on "+days[3]+" and your Akan name is "+akanMale[3]
     }
     if(dayBorn==4){
-        todoItem.innerHTML= fullNames+"You were born on "+days[0]+" and your Akan name is "+akanMale[4]
+        todoItem.innerHTML= fullNames+"You were born on "+days[4]+" and your Akan name is "+akanMale[4]
     }
     if(dayBorn==5){
-        todoItem.innerHTML= fullNames+"You were born on "+days[0]+" and your Akan name is "+akanMale[5]
+        todoItem.innerHTML= fullNames+"You were born on "+days[5]+" and your Akan name is "+akanMale[5]
     }
     
     if(dayBorn==6){
-        todoItem.innerHTML= fullNames+"You were born on "+days[0]+" and your Akan name is "+akanMale[6]
+        todoItem.innerHTML= fullNames+"You were born on "+days[6]+" and your Akan name is "+akanMale[6]
     }
   }
 
@@ -79,6 +78,10 @@ show.appendChild(Div1);
   
   if(dayBorn==6){
     todoItem.innerHTML= fullNames+"You were born on "+days[6]+" and your Akan name is "+akanFemale[6]
+  }
+
+  else{
+    alert("Invalid")
   }
 }
 
